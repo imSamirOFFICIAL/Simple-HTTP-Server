@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTTP Server</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        span1 {
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+        
+        span2 {
+            color: #ffffff;
+            margin-top: 10px;
+        }
+        
+        span3 {
+            color: yellow;
+        }
+        
+        ol {
+            list-style-type: decimal;
+            padding-left: 20px;
+        }
+        
+        li {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            transition: transform 0.1s, color 0.1s;
+        }
+        
+        li:hover {
+            color: #ff0000;
+            transform: translateX(5px);
+        }
+        
+        a {
+            color: #ff0000;
+            text-decoration: none;
+            transition: color 0.1s ease-in-out;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><span1>Simple HTTP Server</span1></h1>
+        <h2><span2>Welcome to the<span2> <span3>Index Page</span3></h2>
+    </header>
+    
+    <div class="container">
+        <ol>
+            <li>Here's a link to <a href="index.html">Index Page</a></li>
+            <li>Here's a link to <a href="header.html">Header Page</a></li>
+            <li>Here's a link to <a href="loremipsum.html">Lorem ipsum Page</a></li>
+            <li>Here's a link to <a href="text.txt">Text File</a></li>
+            <li>Here's a link to <a href="post.html">send a POST request HTML</a></li>
+            <li>Here's a link to <a href="icon.ico">Icon File</a></li>
+            <li>Here's a link to <a href="image.png">Image File</a></li>
+            <li>Here's a link to <a href="pdf.pdf">PDF File</a></li>
+            <li>Here's a link to <a href="video.mp4">Video File</a></li>
+        </ol>
+    </div>
+</body>
+</html>
