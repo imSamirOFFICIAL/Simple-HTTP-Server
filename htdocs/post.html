@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTTP Server</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        span1 {
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+        
+        span2 {
+            color: #ffffff;
+            margin-top: 10px;
+        }
+        
+        span3 {
+            color: yellow;
+        }
+        
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        form {
+            margin-top: 20px;
+        }
+        
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        input[type="text"] {
+            width: 97.5%;
+            padding: 8px;
+            margin-bottom: 10px;
+        }
+        
+        input[type="submit"] {
+            background-color: #00b050;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        
+        input[type="submit"]:hover {
+            background-color: #00d460;
+        }
+        
+        a {
+            color: #ff0000;
+            text-decoration: none;
+            transition: color 0.1s ease-in-out;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1><span1>Simple HTTP Server</span1></h1>
+        <h2><span2>Welcome to the<span2> <span3>Post Request Demo HTML</span3></h2>
+    </header>
+    
+    <div class="container">
+        <h2>HTTP Request Type: POST</h2>
+        
+        <form name="input" action="http://localhost:8000/form_submitted" method="post">
+            <label for="user">Your Name:</label>
+            <input type="text" name="user" id="user">
+            <input type="submit" value="Submit">
+        </form>
+        
+        <p>It sends a post request to <a href="http://localhost:8000/form_submitted">http://localhost:8000/form_submitted</a></p>
+    </div>
+</body>
+</html>
