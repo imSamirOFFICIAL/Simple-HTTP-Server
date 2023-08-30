@@ -1,0 +1,30 @@
+Simple HTTP Server
+==================
+
+This assignment involves the development of a simple HTTP server using socket programming in Python. The server is designed to handle HTTP GET and POST requests, serve HTML and other files, and provide appropriate responses to client requests.
+
+Project Structure:
+- httpserver.py: The main Python script that implements the HTTP server.
+- htdocs/: A directory containing HTML and other files that the server can serve.
+
+Features:
+- Listens for incoming HTTP GET and POST requests.
+- Handles requests in separate threads for concurrent processing.
+- Supports serving HTML files from the 'htdocs' directory.
+- Provides suitable response codes and headers.
+- Displays request and response details on the console for debugging.
+- Manages POST requests and displays the submitted form data.
+
+Important Notes:
+- The server is implemented using basic socket programming and does not rely on high-level libraries.
+- HTML files to be served should be placed in the 'htdocs' directory.
+- Binary files (images, PDFs) can also be served with the correct MIME type.
+- The server displays request and response messages for debugging purposes.
+- For POST requests, the server extracts form data and displays it in the response.
+- Modify the server code to customize behaviors or add additional features.
+
+Author:
+Abdulla Al Samir
+
+Date:
+08/08/2023
