@@ -9,7 +9,7 @@ Once that's done, clone the repository and place the `httpserver.py` file and th
 
 Now, open the `Cmder` app and type `python httpserver.py`, and hit Enter.
 
-![Screenshot](https://github.com/imSamirOFFICIAL/Simple-HTTP-Server/assets/52858312/167303f5-3758-4f3e-a241-001fb1acfe3b)
+![Screenshot](https://github.com/imSamirOFFICIAL/Simple-HTTP-Server/assets/52858312/bb2d4f76-84aa-463d-9a3e-6fb6c5833d10)
 
 If it displays `Server listening on localhost:8000`, go to any web browser, type `localhost:8000`, and press Enter. Now you can see that the HTTP server is running. You can then view all the GET and POST responses for the pages you visit in the Log View of the Cmder app.
 
@@ -26,4 +26,4 @@ If it displays `Server listening on localhost:8000`, go to any web browser, type
 ![Screenshot](https://github.com/imSamirOFFICIAL/Simple-HTTP-Server/assets/52858312/849de5a1-f624-4fcb-8954-2acafe7e3384)
 
 # Log View
-![Screenshot](https://github.com/imSamirOFFICIAL/Simple-HTTP-Server/assets/52858312/59238191-6728-4c8a-91a1-65ce02ce4fd0)
+![Screenshot](https://github.com/imSamirOFFICIAL/Simple-HTTP-Server/assets/52858312/8c826bd3-219e-4052-a249-779eae105cff)
